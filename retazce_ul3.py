@@ -7,10 +7,8 @@ def osr(x=""):
         else:
             z =0
     if z != 0:
-        zn = False
-        print(zn)
+        return False
     else:
-        zn = True
-        print(zn)
+        return True
 osr('kukucka')
 osr('aaauuu')
